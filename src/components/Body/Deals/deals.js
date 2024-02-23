@@ -3,6 +3,7 @@ import "./deals.sass"
 
 function Deals() {
   return (
+    
     <div className="DealsContainer">
       <div className="DealsCard">
         <div className="DealsItems">
