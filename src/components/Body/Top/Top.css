@@ -1,0 +1,149 @@
+
+.TopContainer {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  padding: 0 28px;
+}
+@media (max-width: 991px) {
+  .TopContainer {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.TopContents {
+  background-color: #fbfcfd;
+  display: flex;
+  margin-left: 11px;
+  flex-direction: column;
+  padding: 49px 0 10px;
+}
+@media (max-width: 991px) {
+  .TopContents {
+    max-width: 100%;
+  }
+}
+.TopText {
+  color: #2c384a;
+  font: 48px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .TopText {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.TopItems {
+  background-color: #e1e4e6;
+  margin-top: 24px;
+  height: 1px;
+}
+@media (max-width: 991px) {
+  .TopItems{
+    max-width: 100%;
+  }
+}
+.TopHolders {
+  display: flex;
+  margin-top: 9px;
+  width: 100%;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  line-height: 143%;
+}
+@media (max-width: 991px) {
+  .TopHolders {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.TopItem {
+  display: flex;
+  margin-top: 5px;
+  gap: 2px;
+  color: #4b5665;
+}
+@media (max-width: 991px) {
+  .TopItem{
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.TopIcon {
+  object-fit: auto;
+  object-position: center;
+  width: 20px;
+}
+.TopTexts {
+  font-family: Inter, sans-serif;
+}
+
+.TopFilterContainer {
+  display: flex;
+  gap: 5px;
+  color: #727d87;
+  white-space: nowrap;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .TopFilterContainer {
+    white-space: initial;
+  }
+}
+.TopFilter {
+  font-family: Inter, sans-serif;
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
+  .TopFilter {
+    white-space: initial;
+  }
+}
+.TopTexts2 {
+  background-color: #e1e4e6;
+  margin-left: 11px;
+  width: 1023px;
+  max-width: 100%;
+  height: 1px;
+}
+.TopTexts3 {
+  display: flex;
+  margin-top: 15px;
+  padding-right: 80px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  color: #4b5665;
+  line-height: 154%;
+}
+@media (max-width: 991px) {
+  .TopTexts3 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+}
+.Paths {
+  align-self: start;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #5c6874;
+  line-height: 143%;
+}
+@media (max-width: 991px) {
+  .Paths {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.Path {
+  color: #727d87;
+  align-self: stretch;
+  margin: auto 0;
+  font: 13px/154% Inter, sans-serif;
+}

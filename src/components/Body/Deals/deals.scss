@@ -1,0 +1,135 @@
+.DealsContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+
+.DealsCard {
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 13px;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 37px 0 20px;
+}
+
+.DealsItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.UploadedImage {
+  aspect-ratio: 1.37;
+  object-fit: auto;
+  object-position: center;
+  width: 141px;
+  max-width: 100%;
+}
+
+.DealsTags {
+  align-self: stretch;
+  display: flex;
+  margin-top: 59px;
+  justify-content: space-between;
+  gap: 4px;
+  color: #074786;
+  font-weight: 400;
+}
+
+.DealsTag {
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #f2f4f7;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 9px 8px;
+  font: 13px/154% Inter, sans-serif;
+}
+
+.DelasTitle {
+  color: #626e79;
+  margin-top: 11px;
+  white-space: nowrap;
+  font: 700 16px/150% Inter, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.DealsContents {
+  display: flex;
+  margin-top: 19px;
+  flex-direction: column;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.DealsDescription {
+  color: #626e79;
+  font: 16px/24px Inter, sans-serif;
+}
+
+.DealsDetails {
+  display: flex;
+  margin-top: 14px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.DealsNewPrice {
+  color: #5c6874;
+  font: 20px/140% Inter, sans-serif;
+}
+
+.DealsOldPrice {
+  color: #9fa9b3;
+  font: 14px/143% Inter, sans-serif;
+}
+
+.DealsDiscount {
+  color: #ef4c5d;
+  flex-grow: 1;
+  flex-basis: auto;
+  font: 13px/154% Inter, sans-serif;
+}
+
+.DealsButton {
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #1b88f4;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 18px 60px;
+  font: 16px/150% Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .DealsContainer {
+    width: 100%;
+  }
+
+  .DealsCard {
+    margin-top: 26px;
+  }
+
+  .DealsTags {
+    margin-top: 40px;
+  }
+
+  .DelasTitle {
+    white-space: initial;
+  }
+
+  .DealsButton {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
